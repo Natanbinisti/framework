@@ -6,10 +6,10 @@ class PDOMySQL
     public static function getPdo(){
 
         $dbHost = "localhost";
-        $dbName = "nourriture";
+        $dbName = "food";
 
-        $username = "sushi-admin";
-        $password = "blablabla";
+        $username = "adminsushis";
+        $password = "adminsuchis";
 
         $pdo = new \PDO(
             "mysql:host=$dbHost;dbname=$dbName",
